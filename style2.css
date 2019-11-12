@@ -1,10 +1,45 @@
 body{
-    width:100vh;
-    background-color: rgb(255, 229, 202);
+    background-color: #C0378F;
 }
 
-img{
-    width:45rem;
+form{
+    z-index: 2;
+    width: 45rem;
+    display:flex;
+    flex-direction:column;
+}
+
+input{
+    margin: 0.5rem 0;
+    padding:0.5rem;
+}
+
+textarea{
+    margin: 0.5rem 0;
+    padding:0.5rem;
+}
+
+.formcontainer{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+
+}
+
+button{
+    margin:1rem;
+    height: 2rem;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    font-family:'Oswald', sans-serif;
+    color: white;
+    transition-duration: 1s;
+    margin: 3rem;
 }
 
 

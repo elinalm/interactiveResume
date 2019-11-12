@@ -1,6 +1,7 @@
 body{
-    height:100vh;
     background: url('background-3147808_1920.jpg');
+    background-repeat: no-repeat;
+    background-color: #FFE260;
 }
 
 p {
@@ -10,7 +11,7 @@ p {
 main{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-rows: repeat(8, 1fr);
 }
 
 .nameAndContact{
@@ -28,9 +29,9 @@ main{
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     grid-column: 2/2;
-    grid-row: 3/3;
+    grid-row: 2/2;
 }
 
 .hi{
@@ -38,16 +39,67 @@ main{
 }
 
 .presentationOfMe{
-    color: white;
+    color: #FF4282;
     font-family:'Oswald', sans-serif;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    grid-column:2/2;
-    grid-row:6/6;
-    font-size: 1rem;
+    text-align: center;
+    grid-column:2;
+    grid-row: 4/4;
+    font-size: 1.5rem;
 }
 
 #contact{
     color:white;
 }
+
+a {
+    text-decoration: none;
+    transition-duration: 1s;
+}
+
+.fa-chevron-down{
+    grid-column: 2/2;
+    grid-row: 3/3;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 3rem;
+    color:white;
+    margin: 2rem;
+}
+
+.gronaBrunnen{
+    background: url('grönabrunnen.png');
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    grid-column: 1/1;
+    grid-row: 6/6;
+}
+
+.cryingBaby{
+    background: url('crying_baby\ \(kopia\).jpg');
+    background-color: black;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    grid-column: 2/2;
+    grid-row: 6/6;
+}
+
+#textgame{
+    color: white;
+    font-size: 2rem;
+}
+
+#gronabrunnen{
+    color: white;
+    font-size: 2rem;
+
+}
+
+
+
+
+
