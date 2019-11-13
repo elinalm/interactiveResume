@@ -1,0 +1,76 @@
+
+@media screen and (max-width:320px){
+
+    .headerIpadIphone{
+        width: 100%;
+        color:black;
+        display:flex;
+        grid-column:1/3;
+        grid-row:1/1;    
+    }
+
+    ul{
+        list-style-type:none;
+        display:flex;
+        flex-direction: row;
+        opacity:0;
+        margin-left: 0;
+        transition: left 1s;
+    }
+
+    li {
+        font-family:'Oswald', sans-serif;
+        font-size:1rem;
+    }
+
+    main{
+        width:100vw;
+        display:grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(13, 5rem);
+    }
+
+    .hiImElin{
+        grid-column: 2/5;
+        grid-row: 3/4; 
+    }
+
+    .hi{
+        font-size: 2em;
+        color: #FF4282;
+    }
+
+    .frontEndDeveloper{
+        font-size: 0.7em;
+        color: #FF4282;
+    }
+
+    .presentationOfMe{
+        font-size: 1em;
+        grid-column:1/6;
+        grid-row:4/5;
+    }
+
+    .gronaBrunnen{
+        grid-column: 2/5;
+        grid-row: 8/10;
+    }
+
+    .cryingBaby{
+        grid-column: 2/5;
+        grid-row: 11/13;
+    }
+
+    .aboutGronaBrunnen{
+        font-size: 0.5em;
+        grid-column:2/5;
+        grid-row:10/10;
+    }
+
+    .aboutCryingBaby{
+        font-size: 0.5em;
+        grid-column:2/5;
+        grid-row: 13/13;
+    }
+
+}

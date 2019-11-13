@@ -1,63 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Elin Alm</title>
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Oswald:700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6c12e5381c.js" crossorigin="anonymous"></script>
     <link href="style.css" rel="stylesheet">
-    <link href="index2.html">
+    <link href="tablet.css" rel="stylesheet">
+    <link href="mobile.css" rel="stylesheet">
     <script defer src="script.js"></script>
-    
+
 </head>
-<body>     
-<header>
 
-                    <div class="nameAndContact">
-                        <p>Elin Alm</p>
-                        <a href="index2.html" id="contact">Contact</a>
+<body>
+    <img src="background-3147808_1920.jpg">
+    <header class="headerdesktop">
+
+        <div class="nameAndContact">
+            <p id="contact">Contact</p>
+        </div>
+    </header>
+
+    
+    <main>
+            <div class="headerIpadIphone">
+                    <div class="hamburgerMenu">
+                    <i class="fas fa-bars"></i>
                     </div>
-</header>
-<main>
-                <div class="hiImElin">
-                    <p class="hi">Hi, I'm Elin</p>
-                    <p class="frontEndDeveloper">Frontend developer</p>
-                </div>
+            
+                    <nav>
+                        <ul>
+                            <li><a href="mailto:elin95alm@gmail.com">Email me</li></a>
+                            <li>0733476385</li>
+                            <li><a href="https://github.com/elinalm"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.facebook.com/elin.alm"><i class="fab fa-facebook"></i></a></li>
+                        </ul>
+                    </nav>
+            
                 
-                <i class="fas fa-chevron-down"></i>
+            </div>
 
-                <div class="presentationOfMe">
-                    <p>I am a front end developer with a bit knowledge of back end developing.
-                     I soon have a degree from Medieinstitutet in Gothenburg studying front end developing
-                     and also a bachelor in "Projektmanagement and ERP systems" from Karlstad university.
-                        I now live in Gothenburg since august 2019. I don't have that much work to show 
-                    you now but I can assure you that it will be more by time.</p>
-                </div> 
+        <div class="hiImElin">
+            <p class="hi">Hi, I'm Elin</p>
+            <p class="frontEndDeveloper">Frontend developer</p>
+        </div>
 
-                <div class="gronaBrunnen">
+           <i id="arrow" class="fas fa-chevron-down"></i>
+        
+        
 
-                    <div id="gronabrunnen">
-                        <p>
-                            Remake of an old website
-                        </p>
-                    </div>
+        <div class="presentationOfMe">
+            <p>I am a frontend developer with a bit knowledge of back end developing.
+                I soon have a degree from Medieinstitutet in Gothenburg studying front end developing
+                and also a bachelor in "Projektmanagement and ERP systems" from Karlstad university.
+                I now live in Gothenburg since august 2019. I don't have that much work to show
+                you now but I can assure you that it will be more by time.</p>
+        </div>
 
-                </div>
+        
+        <div class="gronaBrunnen">
 
-                <div class="cryingBaby">
-                    
-                    <div id="textgame">
-                        <p>
-                            My first Textgame
-                        </p>
-                    </div>
+            <div id="gronabrunnen" class="overlay">
+                <p>
+                    Remake of an old website
+                </p>
+            </div>
 
-                </div>
-              
+        </div>
+        <div class="aboutGronaBrunnen">
+            <p>
+                This was my first project using HTML and CSS. 
+                It was a project where we were supposed to make an 
+                upgrade on an old website. 
+            </p>
+        </div>
+
+        <div class="cryingBaby">
+            <div id="textgame" class="overlay">
+                <p>
+                    My first Textgame
+                </p>
+            </div>
+
+        </div>
+        <div class="aboutCryingBaby">
+            <p>
+                This was my first textgame.<a href="https://github.com/elinalm/textgame">Please Try!</a>
+            </p>
+        </div>
+
+    
 </main>
-   
+
+    <footer id="footer">
+        <div class="email">
+                <a href="mailto:elin95alm@gmail.com"><p>Email me</p></a>
+                <p>Or call me at: 0733 47 63 85</p>
+        </div>
+        <div class="socialamedier">
+                <a href="https://www.facebook.com/elin.alm"><i class="fab fa-facebook"></i></a>
+                <a href="https://github.com/elinalm"><i class="fab fa-github"></i></a>
+        </div>
+            
+            
+    </footer>
+
+
 </body>
+
 </html>

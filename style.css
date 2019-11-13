@@ -1,7 +1,12 @@
 body{
-    background: url('background-3147808_1920.jpg');
-    background-repeat: no-repeat;
     background-color: #FFE260;
+    margin: 0;
+}
+
+img{
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
 }
 
 p {
@@ -14,12 +19,29 @@ main{
     grid-template-rows: repeat(8, 1fr);
 }
 
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    align-items:center;
+    display:flex;
+    justify-content: center;
+}
+
+.overlay p{
+    text-shadow: 2px 2px 4px black;
+    font-family:'Oswald', sans-serif;
+}
+
 .nameAndContact{
+    position:absolute;
+    z-index:1;
     color: white;
     font-family:'Oswald', sans-serif;
     display:flex;
     justify-content: space-between;
     padding:0 5rem;
+    margin: 1rem;
 }
 
 .hiImElin {
@@ -49,14 +71,11 @@ main{
 
 #contact{
     color:white;
-}
-
-a {
-    text-decoration: none;
     transition-duration: 1s;
+    cursor: pointer;
 }
 
-.fa-chevron-down{
+#arrow{
     grid-column: 2/2;
     grid-row: 3/3;
     display:flex;
@@ -64,15 +83,14 @@ a {
     align-items: flex-start;
     font-size: 3rem;
     color:white;
-    margin: 2rem;
+    cursor: pointer;
+    
 }
+
 
 .gronaBrunnen{
     background: url('grönabrunnen.png');
     background-size: cover;
-    display:flex;
-    justify-content: center;
-    align-items:center;
     grid-column: 1/1;
     grid-row: 6/6;
 }
@@ -81,9 +99,6 @@ a {
     background: url('crying_baby\ \(kopia\).jpg');
     background-color: black;
     background-size: cover;
-    display:flex;
-    justify-content: center;
-    align-items:center;
     grid-column: 2/2;
     grid-row: 6/6;
 }
@@ -98,6 +113,40 @@ a {
     font-size: 2rem;
 
 }
+
+footer{
+    background: #FF4282;
+    padding: 2rem;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+footer i{
+    margin:1rem;
+    font-size: 2rem;
+    color:black;
+}
+
+footer p{
+    font-family:'Oswald', sans-serif;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:visited{
+    text-decoration: none;
+    color:black;
+}
+
+.email p{
+    margin:1rem;
+}
+
+
+
 
 
 
