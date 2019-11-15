@@ -1,9 +1,13 @@
 window.onload = loadPage
 
+
+/**
+ * Det här är alla mina funktioner.
+ */
 function loadPage(){
+    pressArrowAndGoToPresentation()
     clickContactAndGoToFooter()
     contactMe()
-    clickArrowAndGoToPresentation()
     showTextAboutBaby()
     hidetextAboutBaby()
     showTextAboutGronaBrunnen()
@@ -11,11 +15,14 @@ function loadPage(){
     toggleMenu()
 }
 
+/**
+ * Funktion som gör animation på "contact" på startsidan
+ */
 function contactMe(){
     let contact = document.getElementById('contact')
     
     contact.addEventListener('mouseover', function(){
-        contact.style.color = '#FFE260'
+        contact.style.color = '#03c'
 
         if(contact.style.color = 'solid'){
             contact.addEventListener('mouseout', function(){
@@ -28,20 +35,23 @@ function contactMe(){
 
 )}
 
-function clickArrowAndGoToPresentation(){
+function pressArrowAndGoToPresentation(){
 
     let arrow = document.getElementById('arrow')
 
     arrow.addEventListener('click', function(){
-        
-        window.scrollTo({
-            top: 2000,
-            left: 2000,
-            behavior: 'smooth'
-        });
 
+        window.scrollTo({
+            top: 700,
+            left: 700, 
+            behavior: 'smooth'
+        })
     })
 }
+
+/**
+ * Funktion som gör att sidan scrollas ner till footern när man klickar på contact i headern.
+ */
 
 function clickContactAndGoToFooter(){
     
@@ -58,13 +68,10 @@ function clickContactAndGoToFooter(){
 
 }
 
-function clickArrowAndGoToPresentation(){
 
-    let arrow = document.getElementsByClassName('fa-chevron-down')
-
-}
-
-
+/**
+ * Funktion som gör att en text visas över den gråtande bebisen när man hovrar över den. 
+ */
 function showTextAboutBaby(){
 
 $('#textgame').hide()
@@ -74,6 +81,9 @@ $('.cryingBaby').mouseover(function(){
 })
 }
 
+/**
+ * Funktion som gör att texten från föregående funktion försvinner när man inte hovrar. 
+ */
 function hidetextAboutBaby(){
 
     $('.cryingBaby').mouseleave(function(){
@@ -81,6 +91,9 @@ function hidetextAboutBaby(){
     })
 }
 
+/**
+ * Funktion som gör att en text visas över "gröna brunnen" när man hovrar över den. 
+ */
 function showTextAboutGronaBrunnen(){
     
     $('#gronabrunnen').hide()
@@ -90,6 +103,9 @@ function showTextAboutGronaBrunnen(){
     })
 }
 
+/**
+ * Funktion som gör att texten från den föregående funktionen försvinner när man inte hovrar. 
+ */
 function hideTextAboutGronaBrunnen(){
 
     $('.gronaBrunnen').mouseout(function(){
@@ -111,7 +127,6 @@ function toggleMenu(){
         if(!menu.style.opacity){
             menu.style.opacity = '1'
             menu.style.margin = '0'
-
         }
         else {
             menu.style.opacity = null
