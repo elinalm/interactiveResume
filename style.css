@@ -29,11 +29,13 @@ main{
     align-items:center;
     display:flex;
     justify-content: center;
+    color:white;
 }
 
 .overlay p{
     text-shadow: 2px 2px 4px black;
     font-family:'Oswald', sans-serif;
+    color:white;
 }
 
 .nameAndContact{
@@ -148,6 +150,7 @@ main{
     background-size: cover;
     grid-column: 4;
     grid-row: 11;
+    color: white;
 }
 
 .cryingBaby{
@@ -188,10 +191,13 @@ footer p{
 
 a {
     text-decoration:none;
+    color: white;
+    
 }
 
 a:visited{
     text-decoration: none;
+  
 }
 
 
