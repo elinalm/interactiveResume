@@ -1,5 +1,9 @@
 # interactiveResume
 
+Länk till Github: https://github.com/elinalm/interactiveResume
+
+Länk till demo: https://elinalm.github.io/interactiveResume/.
+
 Jag har gjort ett digitalt CV där fokus har 
 varit på att hålla det hyfsat simpelt med mer fokus 
 på en noga utvald bakgrund och val av färger. 
