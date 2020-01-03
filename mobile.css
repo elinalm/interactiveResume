@@ -1,7 +1,7 @@
 
 
 /*Mobil-versionen*/
-@media screen and (max-width:320px){
+@media screen and (max-width:414px){
 
     .work{
         font-size:1rem;
@@ -19,7 +19,7 @@
     }
 
     .hamburgerMenu{
-        margin:1rem;
+        margin:0.5rem;
         font-size:1rem;
         position:absolute;
         z-index:2;
@@ -31,13 +31,14 @@
         flex-direction: row;
         opacity:0;
         transition: all 1s;
-        padding-inline-start: 3rem;
+        padding-inline-start: 1.5rem;
     }
 
     li {
         font-family:'Oswald', sans-serif;
         font-size:1rem;
-        margin:0.5rem;
+        /*margin:0.5rem;*/
+        padding:0;
     }
 
     main{
