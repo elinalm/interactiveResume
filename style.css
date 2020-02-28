@@ -18,7 +18,7 @@ p {
 main{
     display:grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(12, 10rem);
+    grid-template-rows: repeat(13, 10rem);
 }
 
 /*När man hovrar över bilderna är det detta som körs*/
@@ -30,6 +30,7 @@ main{
     display:flex;
     justify-content: center;
     color:white;
+    text-align: center;
 }
 
 .overlay p{
@@ -130,7 +131,7 @@ main{
     animation-iteration-count: infinite;
 }
 
-/*Animation till pilensom studsar upp och ner för att visa att sidan är scrollbar*/
+/*Animation till pilen som studsar upp och ner för att visa att sidan är scrollbar*/
 @keyframes arrow{
     0%{
         margin:0;
@@ -153,23 +154,39 @@ main{
     display:flex;
     justify-content: center;
     grid-column:3;
-    grid-row: 10;
+    grid-row: 9;
 }
 
 .gronaBrunnen{
-    background: url('grönabrunnen.png');
+    background: url('./img/grönabrunnen.png');
     background-size: cover;
     grid-column: 4;
-    grid-row: 11;
+    grid-row: 12;
     color: white;
 }
 
 .cryingBaby{
-    background: url('crying_baby\ \(kopia\).jpg');
+    background: url('./img/crying_baby\ \(kopia\).jpg');
     background-color: black;
     background-size: cover;
     grid-column: 2/3;
-    grid-row: 11;
+    grid-row: 12;
+}
+
+.guessTheNumber{
+    background: url('./img/guessthenumber.png');
+    background-color: black;
+    background-size: cover;
+    grid-column: 2/3;
+    grid-row: 10;
+}
+
+.colorSplat{
+    background: url('./img/colorSplat.png');
+    background-color: black;
+    background-size: cover;
+    grid-column: 4;
+    grid-row: 10;
 }
 
 #textgame p{

@@ -13,6 +13,10 @@ function loadPage(){
     showTextAboutGronaBrunnen()
     hideTextAboutGronaBrunnen()
     toggleMenu()
+    showTextAboutColorSplat()
+    hideTextAboutColorSplat()
+    showTextAboutGuessTheNumber()
+    hideTextAboutGuessTheNumber()
 }
 
 /**
@@ -110,6 +114,38 @@ function hideTextAboutGronaBrunnen(){
 
     $('.gronaBrunnen').mouseout(function(){
         $('#gronabrunnen').hide()
+    })
+}
+
+function showTextAboutColorSplat(){
+    
+    $('#colorSplatOverLay').hide()
+
+    $('.colorSplat').mouseover(function(){
+       $('#colorSplatOverLay').show()
+    })
+}
+
+function hideTextAboutColorSplat(){
+
+    $('.colorSplat').mouseout(function(){
+        $('#colorSplatOverLay').hide()
+    })
+}
+
+function showTextAboutGuessTheNumber(){
+    
+    $('#guessTheNumberOverLay').hide()
+
+    $('.guessTheNumber').mouseover(function(){
+       $('#guessTheNumberOverLay').show()
+    })
+}
+
+function hideTextAboutGuessTheNumber(){
+
+    $('.guessTheNumber').mouseout(function(){
+        $('#guessTheNumberOverLay').hide()
     })
 }
 
