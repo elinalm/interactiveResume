@@ -158,20 +158,20 @@ main{
 }
 
 .gronaBrunnen{
-    background: url('./img/grönabrunnen.png');
+    background: url('./img/gronabrunnen.png');
     background-size: cover;
     grid-column: 4;
     grid-row: 12;
     color: white;
 }
 
-.cryingBaby{
+/* .cryingBaby{
     background: url('./img/crying_baby\ \(kopia\).jpg');
     background-color: black;
     background-size: cover;
     grid-column: 2/3;
     grid-row: 12;
-}
+} */
 
 .guessTheNumber{
     background: url('./img/guessthenumber.png');
