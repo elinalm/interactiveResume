@@ -8,8 +8,8 @@ function loadPage(){
     pressArrowAndGoToPresentation()
     clickContactAndGoToFooter()
     contactMe()
-    showTextAboutBaby()
-    hidetextAboutBaby()
+    // showTextAboutBaby()
+    // hidetextAboutBaby()
     showTextAboutGronaBrunnen()
     hideTextAboutGronaBrunnen()
     toggleMenu()
@@ -76,24 +76,24 @@ function clickContactAndGoToFooter(){
 /**
  * Funktion som gör att en text visas över den gråtande bebisen när man hovrar över den. 
  */
-function showTextAboutBaby(){
+// function showTextAboutBaby(){
 
-$('#textgame').hide()
+// $('#textgame').hide()
 
-$('.cryingBaby').mouseover(function(){
-    $('#textgame').show()
-})
-}
+// $('.cryingBaby').mouseover(function(){
+//     $('#textgame').show()
+// })
+// }
 
 /**
  * Funktion som gör att texten från föregående funktion försvinner när man inte hovrar. 
  */
-function hidetextAboutBaby(){
+// function hidetextAboutBaby(){
 
-    $('.cryingBaby').mouseleave(function(){
-        $('#textgame').hide()
-    })
-}
+//     $('.cryingBaby').mouseleave(function(){
+//         $('#textgame').hide()
+//     })
+// }
 
 /**
  * Funktion som gör att en text visas över "gröna brunnen" när man hovrar över den. 

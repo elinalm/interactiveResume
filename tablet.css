@@ -26,9 +26,9 @@
 
 /* Ipad-versionen */
 @media screen and (max-width:1024px){
-    .work{
+    /* .work{
         display: none;
-    }
+    } */
 
     .education{
         display:none;
@@ -37,7 +37,7 @@
      main {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(22, 7rem);
+        grid-template-rows: repeat(18, 7rem);
         width:100vw;
     }
 
@@ -139,19 +139,19 @@
         justify-content: center;
     }
 
-    .cryingBaby{
+    /* .cryingBaby{
         grid-column:2/5;
         grid-row:14/16;
-    }
+    } */
 
     .guessTheNumber{
         grid-column: 2/5;
-        grid-row: 17/19;
+        grid-row: 13/15;
     }
 
     .colorSplat{
         grid-column: 2/5;
-        grid-row: 20/22;
+        grid-row: 16/18;
     }
 
     .aboutGronaBrunnen{
@@ -162,7 +162,7 @@
         text-align:center;
         margin:1rem;
     }
-
+/* 
     .aboutCryingBaby{
         grid-column:2/5;
         grid-row: 16;
@@ -170,11 +170,11 @@
         color: #03c;
         text-align:center;
         margin:1rem;
-    }
+    } */
 
     .aboutColorSplat{
         grid-column:2/5;
-        grid-row: 22;
+        grid-row: 18;
         font-family:'Oswald', sans-serif;
         color: #03c;
         text-align:center;
@@ -183,7 +183,7 @@
 
     .aboutGuessTheNumber{
         grid-column:2/5;
-        grid-row: 19;
+        grid-row: 15;
         font-family:'Oswald', sans-serif;
         color: #03c;
         text-align:center;
